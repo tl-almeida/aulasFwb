@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <p id="aulafuji"></p>
+        <script>
+
+            
+
+            function verificarMarcaCerta(marca){
+
+                switch(marca) {
+                case 'Fujioka' : return "Marca Certa";
+                case 'xingling' : return "Outra Marca 1";
+                default : return "Outra Marca 2";
+                }
+            }
+                                
+            var retorno = verificarMarcaCerta("Fujioka");
+            console.log(retorno);
+            retorno = verificarMarcaCerta("xingling");
+            console.log(retorno);
+            retorno = verificarMarcaCerta("Fuji");
+            console.log(retorno);
+            retorno = verificarMarcaCerta("TainheilenGambielMeloOka");
+            console.log(retorno);
+            
+        </script>
+
+</body>
+</html>

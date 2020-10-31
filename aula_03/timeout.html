@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <p id="aulafuji"></p>
+        <script>
+          
+          function exibeData(){
+            console.log(new Date())
+          }
+
+          //setInterval(exibeData, 1000);
+          setInterval(() => {
+            exibeData();
+          }, 1000);
+          //setTimeout(exibeData, 1000);
+          setTimeout(() => {
+              console.log("Exibido após 5 segundos");
+          }, 5000);
+                      
+        </script>
+
+</body>
+</html>

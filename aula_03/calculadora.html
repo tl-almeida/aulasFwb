@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+    <button onclick="calcular()">Clique para realizar a operação</button>
+
+    <p id="calculadora"></p>
+
+    <script>
+    function calcular() {
+    var num1 = prompt("Número 1:");
+    var num2 = prompt("Número 2:");
+
+    var result = parseInt(num1) + parseInt(num2);
+        document.getElementById("calculadora").innerHTML = "O resultado é " + result + "!";
+    }
+    </script>
+
+</body>
+</html>
